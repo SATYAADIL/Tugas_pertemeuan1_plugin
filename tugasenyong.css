@@ -1,0 +1,82 @@
+*,
+html{
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+}
+
+body{
+    height: 100vh;
+}
+
+header {
+    font-size: xx-large;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    height:1%;
+    background: blue;
+    padding-bottom: 50px;
+}
+
+
+nav {
+    height: 10%;
+    background-color: yellow;
+
+}
+
+nav > ul {
+
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    /* align-items: center; */
+    /* align-content: cente; */
+    
+    /* padding: 10px; */
+    /* margin: 20p; */
+}
+
+
+ul > li {
+    font-size: x-large;
+    padding: 50px;
+}
+
+main {
+    height: 70%;
+    width: 100vw;
+    /* background-color: blueviolet; */
+    display: flex;
+}
+
+section {
+    width: 70%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    background-color: tomato    ;
+    /* height: inherit; */
+    
+}
+
+aside {
+    width: 30%;
+    background-color: brown;
+    /* height: inherit; */
+}
+
+img {
+    height: 250px;
+    width: 250px;
+}
+
+footer {
+    height: 5%;
+    background-color: green;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding-top: 15px
+}
